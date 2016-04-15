@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F30DB9C1CBFE07800B1165A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F30DB9B1CBFE07800B1165A /* main.m */; };
+		7F30DB9F1CBFE07800B1165A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F30DB9E1CBFE07800B1165A /* AppDelegate.m */; };
+		7F30DBA21CBFE07800B1165A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F30DBA11CBFE07800B1165A /* ViewController.m */; };
+		7F30DBA51CBFE07800B1165A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F30DBA31CBFE07800B1165A /* Main.storyboard */; };
+		7F30DBA71CBFE07800B1165A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F30DBA61CBFE07800B1165A /* Assets.xcassets */; };
+		7F30DBAA1CBFE07800B1165A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F30DBA81CBFE07800B1165A /* LaunchScreen.storyboard */; };
+		7F30DBB51CBFE07800B1165A /* NavAnimateTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F30DBB41CBFE07800B1165A /* NavAnimateTestTests.m */; };
+		7F30DBC01CBFE07800B1165A /* NavAnimateTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F30DBBF1CBFE07800B1165A /* NavAnimateTestUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F30DBB11CBFE07800B1165A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F30DB8F1CBFE07800B1165A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F30DB961CBFE07800B1165A;
+			remoteInfo = NavAnimateTest;
+		};
+		7F30DBBC1CBFE07800B1165A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F30DB8F1CBFE07800B1165A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F30DB961CBFE07800B1165A;
+			remoteInfo = NavAnimateTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F30DB971CBFE07800B1165A /* NavAnimateTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavAnimateTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F30DB9B1CBFE07800B1165A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F30DB9D1CBFE07800B1165A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7F30DB9E1CBFE07800B1165A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7F30DBA01CBFE07800B1165A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7F30DBA11CBFE07800B1165A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7F30DBA41CBFE07800B1165A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F30DBA61CBFE07800B1165A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F30DBA91CBFE07800B1165A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F30DBAB1CBFE07800B1165A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F30DBB01CBFE07800B1165A /* NavAnimateTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavAnimateTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F30DBB41CBFE07800B1165A /* NavAnimateTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavAnimateTestTests.m; sourceTree = "<group>"; };
+		7F30DBB61CBFE07800B1165A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F30DBBB1CBFE07800B1165A /* NavAnimateTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavAnimateTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F30DBBF1CBFE07800B1165A /* NavAnimateTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavAnimateTestUITests.m; sourceTree = "<group>"; };
+		7F30DBC11CBFE07800B1165A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F30DB941CBFE07800B1165A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F30DBAD1CBFE07800B1165A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F30DBB81CBFE07800B1165A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F30DB8E1CBFE07800B1165A = {
+			isa = PBXGroup;
+			children = (
+				7F30DB991CBFE07800B1165A /* NavAnimateTest */,
+				7F30DBB31CBFE07800B1165A /* NavAnimateTestTests */,
+				7F30DBBE1CBFE07800B1165A /* NavAnimateTestUITests */,
+				7F30DB981CBFE07800B1165A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F30DB981CBFE07800B1165A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F30DB971CBFE07800B1165A /* NavAnimateTest.app */,
+				7F30DBB01CBFE07800B1165A /* NavAnimateTestTests.xctest */,
+				7F30DBBB1CBFE07800B1165A /* NavAnimateTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F30DB991CBFE07800B1165A /* NavAnimateTest */ = {
+			isa = PBXGroup;
+			children = (
+				7F30DB9D1CBFE07800B1165A /* AppDelegate.h */,
+				7F30DB9E1CBFE07800B1165A /* AppDelegate.m */,
+				7F30DBA01CBFE07800B1165A /* ViewController.h */,
+				7F30DBA11CBFE07800B1165A /* ViewController.m */,
+				7F30DBA31CBFE07800B1165A /* Main.storyboard */,
+				7F30DBA61CBFE07800B1165A /* Assets.xcassets */,
+				7F30DBA81CBFE07800B1165A /* LaunchScreen.storyboard */,
+				7F30DBAB1CBFE07800B1165A /* Info.plist */,
+				7F30DB9A1CBFE07800B1165A /* Supporting Files */,
+			);
+			path = NavAnimateTest;
+			sourceTree = "<group>";
+		};
+		7F30DB9A1CBFE07800B1165A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F30DB9B1CBFE07800B1165A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7F30DBB31CBFE07800B1165A /* NavAnimateTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F30DBB41CBFE07800B1165A /* NavAnimateTestTests.m */,
+				7F30DBB61CBFE07800B1165A /* Info.plist */,
+			);
+			path = NavAnimateTestTests;
+			sourceTree = "<group>";
+		};
+		7F30DBBE1CBFE07800B1165A /* NavAnimateTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7F30DBBF1CBFE07800B1165A /* NavAnimateTestUITests.m */,
+				7F30DBC11CBFE07800B1165A /* Info.plist */,
+			);
+			path = NavAnimateTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F30DB961CBFE07800B1165A /* NavAnimateTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F30DBC41CBFE07800B1165A /* Build configuration list for PBXNativeTarget "NavAnimateTest" */;
+			buildPhases = (
+				7F30DB931CBFE07800B1165A /* Sources */,
+				7F30DB941CBFE07800B1165A /* Frameworks */,
+				7F30DB951CBFE07800B1165A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NavAnimateTest;
+			productName = NavAnimateTest;
+			productReference = 7F30DB971CBFE07800B1165A /* NavAnimateTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F30DBAF1CBFE07800B1165A /* NavAnimateTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F30DBC71CBFE07800B1165A /* Build configuration list for PBXNativeTarget "NavAnimateTestTests" */;
+			buildPhases = (
+				7F30DBAC1CBFE07800B1165A /* Sources */,
+				7F30DBAD1CBFE07800B1165A /* Frameworks */,
+				7F30DBAE1CBFE07800B1165A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F30DBB21CBFE07800B1165A /* PBXTargetDependency */,
+			);
+			name = NavAnimateTestTests;
+			productName = NavAnimateTestTests;
+			productReference = 7F30DBB01CBFE07800B1165A /* NavAnimateTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7F30DBBA1CBFE07800B1165A /* NavAnimateTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F30DBCA1CBFE07800B1165A /* Build configuration list for PBXNativeTarget "NavAnimateTestUITests" */;
+			buildPhases = (
+				7F30DBB71CBFE07800B1165A /* Sources */,
+				7F30DBB81CBFE07800B1165A /* Frameworks */,
+				7F30DBB91CBFE07800B1165A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F30DBBD1CBFE07800B1165A /* PBXTargetDependency */,
+			);
+			name = NavAnimateTestUITests;
+			productName = NavAnimateTestUITests;
+			productReference = 7F30DBBB1CBFE07800B1165A /* NavAnimateTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F30DB8F1CBFE07800B1165A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = K;
+				TargetAttributes = {
+					7F30DB961CBFE07800B1165A = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					7F30DBAF1CBFE07800B1165A = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 7F30DB961CBFE07800B1165A;
+					};
+					7F30DBBA1CBFE07800B1165A = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 7F30DB961CBFE07800B1165A;
+					};
+				};
+			};
+			buildConfigurationList = 7F30DB921CBFE07800B1165A /* Build configuration list for PBXProject "NavAnimateTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F30DB8E1CBFE07800B1165A;
+			productRefGroup = 7F30DB981CBFE07800B1165A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F30DB961CBFE07800B1165A /* NavAnimateTest */,
+				7F30DBAF1CBFE07800B1165A /* NavAnimateTestTests */,
+				7F30DBBA1CBFE07800B1165A /* NavAnimateTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F30DB951CBFE07800B1165A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F30DBAA1CBFE07800B1165A /* LaunchScreen.storyboard in Resources */,
+				7F30DBA71CBFE07800B1165A /* Assets.xcassets in Resources */,
+				7F30DBA51CBFE07800B1165A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F30DBAE1CBFE07800B1165A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F30DBB91CBFE07800B1165A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F30DB931CBFE07800B1165A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F30DBA21CBFE07800B1165A /* ViewController.m in Sources */,
+				7F30DB9F1CBFE07800B1165A /* AppDelegate.m in Sources */,
+				7F30DB9C1CBFE07800B1165A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F30DBAC1CBFE07800B1165A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F30DBB51CBFE07800B1165A /* NavAnimateTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F30DBB71CBFE07800B1165A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F30DBC01CBFE07800B1165A /* NavAnimateTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F30DBB21CBFE07800B1165A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F30DB961CBFE07800B1165A /* NavAnimateTest */;
+			targetProxy = 7F30DBB11CBFE07800B1165A /* PBXContainerItemProxy */;
+		};
+		7F30DBBD1CBFE07800B1165A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F30DB961CBFE07800B1165A /* NavAnimateTest */;
+			targetProxy = 7F30DBBC1CBFE07800B1165A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7F30DBA31CBFE07800B1165A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F30DBA41CBFE07800B1165A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F30DBA81CBFE07800B1165A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F30DBA91CBFE07800B1165A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F30DBC21CBFE07800B1165A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7F30DBC31CBFE07800B1165A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F30DBC51CBFE07800B1165A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NavAnimateTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yoon.NavAnimateTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7F30DBC61CBFE07800B1165A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NavAnimateTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yoon.NavAnimateTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7F30DBC81CBFE07800B1165A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NavAnimateTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yoon.NavAnimateTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NavAnimateTest.app/NavAnimateTest";
+			};
+			name = Debug;
+		};
+		7F30DBC91CBFE07800B1165A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NavAnimateTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yoon.NavAnimateTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NavAnimateTest.app/NavAnimateTest";
+			};
+			name = Release;
+		};
+		7F30DBCB1CBFE07800B1165A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NavAnimateTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yoon.NavAnimateTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NavAnimateTest;
+			};
+			name = Debug;
+		};
+		7F30DBCC1CBFE07800B1165A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NavAnimateTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yoon.NavAnimateTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NavAnimateTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F30DB921CBFE07800B1165A /* Build configuration list for PBXProject "NavAnimateTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F30DBC21CBFE07800B1165A /* Debug */,
+				7F30DBC31CBFE07800B1165A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F30DBC41CBFE07800B1165A /* Build configuration list for PBXNativeTarget "NavAnimateTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F30DBC51CBFE07800B1165A /* Debug */,
+				7F30DBC61CBFE07800B1165A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7F30DBC71CBFE07800B1165A /* Build configuration list for PBXNativeTarget "NavAnimateTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F30DBC81CBFE07800B1165A /* Debug */,
+				7F30DBC91CBFE07800B1165A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7F30DBCA1CBFE07800B1165A /* Build configuration list for PBXNativeTarget "NavAnimateTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F30DBCB1CBFE07800B1165A /* Debug */,
+				7F30DBCC1CBFE07800B1165A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F30DB8F1CBFE07800B1165A /* Project object */;
+}
